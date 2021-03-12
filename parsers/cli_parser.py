@@ -12,10 +12,9 @@ class CLIParser():
         self.cli_parser.add_argument('-f', dest='file', help='Input .csv file name')
         self.cli_parser.add_argument('-d', dest='date', help='Specify date in YYYY-MM-DD format')
 
+# TODO  add error handling
     def parse_args(self):
-        args = self.cli_parser.parse_args()
 
-        if not args.file or not args.date:
-            return None
+        args = self.cli_parser.parse_args()
 
         return args

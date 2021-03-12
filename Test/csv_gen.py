@@ -16,5 +16,3 @@ import datetime
 #     writer = csv.writer(file, delimiter=',')
 #     writer.writerows(data_list1)
 
-date = datetime.datetime.fromisoformat("2011-13- 02")
-print(type(date), date)
