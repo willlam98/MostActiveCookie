@@ -1,2 +1,0 @@
-class InvalidInputDateFormat():
-    pass
