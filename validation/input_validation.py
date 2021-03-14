@@ -14,7 +14,7 @@ class InputValidation():
     INVALID_INPUT_FILE_EXTENSION_MESSAGE = 'Invalid file cookie log file format, expecting .csv file'
     INVALID_INPUT_FILE_PATH_MESSAGE = 'File or directory do not exist'
 
-    @staticmethod    
+    @staticmethod
     def validate_date(date):
         try:
             assert len(date) == len(InputValidation.INPUT_DATE_FULL_FORMAT)
