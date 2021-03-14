@@ -8,9 +8,9 @@ For running locally, for example
 ```
 where -f and -d denotes the input .csv file and query date respectively.
 
-Or running the program Python file on Linux environment
+Or directly running the Python file
 ```bash
-./program.py ./cookie_log.csv -d 2018-12-09
+./program.py -f ./cookie_log.csv -d 2018-12-09
 ```
 
 ## Running all tests case
