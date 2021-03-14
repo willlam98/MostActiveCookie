@@ -10,7 +10,7 @@ class InputValidation():
 
     INPUT_DATE_FORMAT = '%Y-%m-%d'
     INPUT_DATE_FULL_FORMAT = 'YYYY-MM-DD'
-    INVALID_INPUT_DATE_MESSAGE = 'Invalid input date format, expecting {}'.format(INPUT_DATE_FORMAT)
+    INVALID_INPUT_DATE_MESSAGE = 'Invalid input date format, expecting {}'.format(INPUT_DATE_FULL_FORMAT)
     INVALID_INPUT_FILE_EXTENSION_MESSAGE = 'Invalid file cookie log file format, expecting .csv file'
     INVALID_INPUT_FILE_PATH_MESSAGE = 'File or directory do not exist'
 

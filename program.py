@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 """
+This is a command line program that outputs the most active cookies
+regards to the input query date in a .csv file
+
 usage: ./program.py [-h] [-f FILE] [-d DATE]
 
 Find the most active cookies on a specific date from a .csv file.

@@ -3,6 +3,7 @@ Module contains a command line parser with pre-defined input arguments
 """
 
 import argparse
+from sys import exit
 
 class CLIParser():
 
