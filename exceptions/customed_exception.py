@@ -1,5 +1,5 @@
 """
-    This module contains different types of customed exception
+This module contains different types of customed exception
 """
 
 class InputError(Exception):
