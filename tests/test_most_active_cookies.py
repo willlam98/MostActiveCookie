@@ -10,7 +10,7 @@ def init_cookie_factory():
                 {'cookie': 'SAZuXPGUrfbcn5UA', 'timestamp': '2018-12-08T22:03:00+00:00'},
                 {'cookie': '4sMM2LxV07bPJzwf', 'timestamp': '2018-12-08T21:30:00+00:00'},
                 {'cookie': 'fbcn5UAVanZf6UtG', 'timestamp': '2018-12-08T09:30:00+00:00'},
-                {'cookie': '4sMM2LxV07bPJzwf', 'timestamp': '2018-12-07T23:30:00+00:00'}]
+                {'cookie': '4sMM2LxV07bPJzwf', 'timestamp': '2018-12-06T23:30:00+00:00'}]
 
     for log in log_data:
         log['timestamp'] = datetime.datetime.fromisoformat(log['timestamp'])
@@ -25,8 +25,10 @@ class TestCookieFactory():
         'query_date, expected',
         [('2018-12-09', ['AtY0laUfhglK3lC7']),
          ('2018-12-08', ['SAZuXPGUrfbcn5UA', '4sMM2LxV07bPJzwf', 'fbcn5UAVanZf6UtG']),
-         ('2018-12-07', ['4sMM2LxV07bPJzwf']),
-         ('2021-03-17', [])
+         ('2018-12-06', ['4sMM2LxV07bPJzwf']),
+         ('2018-12-07', []),
+         ('2021-03-17', []),
+         ('2017-12-09', [])
         ]
     )
     def test_daily_most_active_cookie(self, query_date, expected):

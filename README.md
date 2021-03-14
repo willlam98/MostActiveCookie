@@ -1,2 +1,27 @@
-# MostActiveCookie
-Quantcast Interview
+# Most Active Cookie
+Here presents an application to find the most active cookies on a given date.
+
+## Running locally
+For running locally, for example
+```bash
+./program.py -f ./cookie_log.csv -d 2018-12-09
+```
+where -f and -d denotes the input .csv file and query date respectively.
+
+## Running all tests case
+This application uses pytest as the testing framework.
+
+For running the tests, first of all to create a virtual enviroment and install the relevant packages
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+In running all test cases:
+```bash
+pytest
+```
+Finally in deactivating the environment:
+```bash
+deactivate
+```
