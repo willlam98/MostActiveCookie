@@ -26,7 +26,13 @@ In running all test cases:
 ```bash
 pytest
 ```
-Finally in deactivating the environment:
+## Rebuild program
+```bash
+pyinstaller --onefile ./program.py
+```
+The executable program will be located in `./dist/`
+
+## To deactivate the environment
 ```bash
 deactivate
 ```
