@@ -1,5 +1,5 @@
 """
-This modules contains static utility functions to validate user input 
+This module contains static utility functions to validate user input 
 """
 
 import os
